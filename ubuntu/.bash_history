@@ -39,3 +39,4 @@ ls
 git init
 sudo su -
 exit
+sudo su -
