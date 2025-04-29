@@ -1,0 +1,5 @@
+2.I have deployed an application in guvi.com:9000, and logs show my app is running, but I’m unable to view the page. Check whether my port is open or not ?
+
+Answer: netstat -tulnp | grep 9000
+
+This command will ensure whether the port 9000 is occupied or not. We are using grep to find the specific port here.
